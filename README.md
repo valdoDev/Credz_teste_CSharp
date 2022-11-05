@@ -1,7 +1,7 @@
 # Teste Credz C#
 
 
-## Status: <b> Em Desenvolvimento v1 </b>
+## Status: <b> Finalizado </b>
 
 ## Geral
 
@@ -35,4 +35,4 @@ Ao finalizar o teste, envie o link de um repositório Git, onde todo o testes e 
 
 ### Solução
 
-Solução está na branch Refatoração
+Solução necessitou de ajuste no projeto Requester.
