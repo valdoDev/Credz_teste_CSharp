@@ -6,7 +6,7 @@ namespace Portal
 {
     public class Program
     {
-        public static int NUMBER_OF_VIRTUAL_MACHINES = 50;
+        public static int NUMBER_OF_VIRTUAL_MACHINES = 1;
 
         public const string API_ADDRESS = "http://localhost:5001/api/time";
 

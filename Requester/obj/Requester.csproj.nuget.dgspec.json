@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thiago.borba\\OneDrive - CWI Software\\Documents\\Clientes\\CWI\\Núcleo Engenharia\\Provas Técnicas\\provacsharpdotnet\\Requester\\Requester.csproj": {}
+    "C:\\repos2\\provacsharpdotnet_original\\provacsharpdotnet_Git2\\Credz_teste_CSharp\\Requester\\Requester.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thiago.borba\\OneDrive - CWI Software\\Documents\\Clientes\\CWI\\Núcleo Engenharia\\Provas Técnicas\\provacsharpdotnet\\Requester\\Requester.csproj": {
+    "C:\\repos2\\provacsharpdotnet_original\\provacsharpdotnet_Git2\\Credz_teste_CSharp\\Requester\\Requester.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiago.borba\\OneDrive - CWI Software\\Documents\\Clientes\\CWI\\Núcleo Engenharia\\Provas Técnicas\\provacsharpdotnet\\Requester\\Requester.csproj",
+        "projectUniqueName": "C:\\repos2\\provacsharpdotnet_original\\provacsharpdotnet_Git2\\Credz_teste_CSharp\\Requester\\Requester.csproj",
         "projectName": "Requester",
-        "projectPath": "C:\\Users\\thiago.borba\\OneDrive - CWI Software\\Documents\\Clientes\\CWI\\Núcleo Engenharia\\Provas Técnicas\\provacsharpdotnet\\Requester\\Requester.csproj",
-        "packagesPath": "C:\\Users\\thiago.borba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiago.borba\\OneDrive - CWI Software\\Documents\\Clientes\\CWI\\Núcleo Engenharia\\Provas Técnicas\\provacsharpdotnet\\Requester\\obj\\",
+        "projectPath": "C:\\repos2\\provacsharpdotnet_original\\provacsharpdotnet_Git2\\Credz_teste_CSharp\\Requester\\Requester.csproj",
+        "packagesPath": "C:\\Users\\Valdo\\.nuget\\packages\\",
+        "outputPath": "C:\\repos2\\provacsharpdotnet_original\\provacsharpdotnet_Git2\\Credz_teste_CSharp\\Requester\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\thiago.borba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Valdo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,6 +29,7 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +41,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -58,7 +60,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
