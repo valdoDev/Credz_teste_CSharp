@@ -9,7 +9,7 @@ namespace Requester
 {
     internal class Program
     {
-        private const string PORTAL_URL = "http://localhost:5000/Home/information";
+        private const string PORTAL_URL = "http://localhost:5000/Home/index";
         private static readonly CancellationTokenSource source = new CancellationTokenSource();
         private static readonly CancellationToken token = source.Token;
 

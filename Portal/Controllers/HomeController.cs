@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace Portal.Controllers
 {
@@ -12,7 +13,7 @@ namespace Portal.Controllers
     {
         public static int _requestsCounter = 0;
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             // Incrementa o contador de requisições
             _requestsCounter++;
@@ -21,34 +22,26 @@ namespace Portal.Controllers
             if (!Program.CheckIfThereIsThreadAvailable())
                 return BadRequest(Messages.THREAD_IS_NO_THREAD_AVAILABLE);
 
-            // Busca as informações de data da API TimeAPI
-            var httpClient = new HttpClient();
-            var result = httpClient.GetStringAsync(Program.API_ADDRESS).Result;
+            string dateTimeNow = "", key = "", sum = "";
 
-            // Extrai o dia da data
-            var d = int.Parse(result.Split(",")[1].Split(" ")[1]);
-
-            // Calcula e gera a chave
-            var key = "";
-            for (int i = 0; i < 4096; i++)
+            try
             {
-                var random = new Random();
-                key = string.Concat(key, d * i * random.Next(100, 9999));
+                var resultKey = await Functions.General.Key.GenerateKey(Program.API_ADDRESS);
+
+                dateTimeNow = resultKey["DateTimeNow"] ?? "";
+                key = resultKey["Key"] ?? "";
+                sum = resultKey["Sum"] ?? "";
+
             }
-
-            // Obtem os números ímpares gerados na chave
-            var oddNumbers = new List<int>();
-            foreach (var c in key.ToArray())
-                if (int.Parse(c.ToString()) % 2 != 0)
-                    oddNumbers.Add(int.Parse(c.ToString()));
-
-            // Soma números ímpares
-            var sumOddNumbers = oddNumbers.Sum(x => x);
-
+            catch (Exception ex)
+            {
+                return BadRequest(error:ex.Message);
+            }
+            
             // Aplica valores para View
-            ViewData["DateTimeNow"] = result;
+            ViewData["DateTimeNow"] = dateTimeNow;
             ViewData["Key"] = key;
-            ViewData["Sum"] = sumOddNumbers;
+            ViewData["Sum"] = sum;
             ViewData["VirtualMachines"] = Program.NUMBER_OF_VIRTUAL_MACHINES;
             ViewData["RequestsCounter"] = _requestsCounter;
 
@@ -67,5 +60,9 @@ namespace Portal.Controllers
         {
             return View();
         }
+
+        
+
+        
     }
 }
