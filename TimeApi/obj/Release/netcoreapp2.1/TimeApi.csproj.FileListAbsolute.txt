@@ -1,0 +1,14 @@
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\TimeApi\bin\Release\netcoreapp2.1\TimeApi.deps.json
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\TimeApi\bin\Release\netcoreapp2.1\TimeApi.runtimeconfig.json
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\TimeApi\bin\Release\netcoreapp2.1\TimeApi.runtimeconfig.dev.json
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\TimeApi\bin\Release\netcoreapp2.1\TimeApi.dll
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\TimeApi\bin\Release\netcoreapp2.1\TimeApi.pdb
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\TimeApi\obj\Release\netcoreapp2.1\TimeApi.csprojAssemblyReference.cache
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\TimeApi\obj\Release\netcoreapp2.1\TimeApi.csproj.CoreCompileInputs.cache
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\TimeApi\obj\Release\netcoreapp2.1\TimeApi.RazorAssemblyInfo.cache
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\TimeApi\obj\Release\netcoreapp2.1\TimeApi.RazorAssemblyInfo.cs
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\TimeApi\obj\Release\netcoreapp2.1\TimeApi.AssemblyInfoInputs.cache
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\TimeApi\obj\Release\netcoreapp2.1\TimeApi.AssemblyInfo.cs
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\TimeApi\obj\Release\netcoreapp2.1\TimeApi.RazorTargetAssemblyInfo.cache
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\TimeApi\obj\Release\netcoreapp2.1\TimeApi.dll
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\TimeApi\obj\Release\netcoreapp2.1\TimeApi.pdb

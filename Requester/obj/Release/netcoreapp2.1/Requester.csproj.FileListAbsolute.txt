@@ -1,0 +1,10 @@
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\Requester\bin\Release\netcoreapp2.1\Requester.deps.json
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\Requester\bin\Release\netcoreapp2.1\Requester.runtimeconfig.json
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\Requester\bin\Release\netcoreapp2.1\Requester.runtimeconfig.dev.json
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\Requester\bin\Release\netcoreapp2.1\Requester.dll
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\Requester\bin\Release\netcoreapp2.1\Requester.pdb
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\Requester\obj\Release\netcoreapp2.1\Requester.csproj.CoreCompileInputs.cache
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\Requester\obj\Release\netcoreapp2.1\Requester.AssemblyInfoInputs.cache
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\Requester\obj\Release\netcoreapp2.1\Requester.AssemblyInfo.cs
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\Requester\obj\Release\netcoreapp2.1\Requester.dll
+C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\Requester\obj\Release\netcoreapp2.1\Requester.pdb
