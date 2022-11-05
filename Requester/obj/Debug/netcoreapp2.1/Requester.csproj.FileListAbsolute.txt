@@ -9,3 +9,15 @@ C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\Requester\obj\D
 C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\Requester\obj\Debug\netcoreapp2.1\Requester.dll
 C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\Requester\obj\Debug\netcoreapp2.1\Requester.pdb
 C:\Users\thiago.borba\source\repos\MeetupPoaNeters20\PoaNeters20\Requester\obj\Debug\netcoreapp2.1\Requester.csprojAssemblyReference.cache
+C:\repos2\provacsharpdotnet_original\provacsharpdotnet_Git2\Credz_teste_CSharp\Requester\bin\Debug\netcoreapp2.1\Requester.deps.json
+C:\repos2\provacsharpdotnet_original\provacsharpdotnet_Git2\Credz_teste_CSharp\Requester\bin\Debug\netcoreapp2.1\Requester.runtimeconfig.json
+C:\repos2\provacsharpdotnet_original\provacsharpdotnet_Git2\Credz_teste_CSharp\Requester\bin\Debug\netcoreapp2.1\Requester.runtimeconfig.dev.json
+C:\repos2\provacsharpdotnet_original\provacsharpdotnet_Git2\Credz_teste_CSharp\Requester\bin\Debug\netcoreapp2.1\Requester.dll
+C:\repos2\provacsharpdotnet_original\provacsharpdotnet_Git2\Credz_teste_CSharp\Requester\bin\Debug\netcoreapp2.1\Requester.pdb
+C:\repos2\provacsharpdotnet_original\provacsharpdotnet_Git2\Credz_teste_CSharp\Requester\obj\Debug\netcoreapp2.1\Requester.AssemblyInfoInputs.cache
+C:\repos2\provacsharpdotnet_original\provacsharpdotnet_Git2\Credz_teste_CSharp\Requester\obj\Debug\netcoreapp2.1\Requester.AssemblyInfo.cs
+C:\repos2\provacsharpdotnet_original\provacsharpdotnet_Git2\Credz_teste_CSharp\Requester\obj\Debug\netcoreapp2.1\Requester.csproj.CoreCompileInputs.cache
+C:\repos2\provacsharpdotnet_original\provacsharpdotnet_Git2\Credz_teste_CSharp\Requester\obj\Debug\netcoreapp2.1\Requester.dll
+C:\repos2\provacsharpdotnet_original\provacsharpdotnet_Git2\Credz_teste_CSharp\Requester\obj\Debug\netcoreapp2.1\Requester.pdb
+C:\repos2\provacsharpdotnet_original\provacsharpdotnet_Git2\Credz_teste_CSharp\Requester\obj\Debug\netcoreapp2.1\Requester.genruntimeconfig.cache
+C:\repos2\provacsharpdotnet_original\provacsharpdotnet_Git2\Credz_teste_CSharp\Requester\obj\Debug\netcoreapp2.1\Requester.csproj.AssemblyReference.cache
