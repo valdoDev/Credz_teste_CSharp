@@ -1,5 +1,5 @@
 # Teste Credz C#
-App criado utlizando as API's disponibilizadas pelo <b><a href="https://developer.marvel.com/docs#!/public/getCreatorCollection_get_0">Portal Marvel Developer</a></b>
+
 
 ## Status: <b> Em Desenvolvimento v1 </b>
 
@@ -10,12 +10,15 @@ Será analisado a sintaxe C#, legibilidade de código, concorrência, alocação
 
 ### Contexto
 O teste é composto de três aplicações, sendo:
-TimeApi: O TimerApi é uma API Rest em .NET Core que possui um método GET que retorna um DateTime atual. Antes de retornar o DateTime, ele usa um delay aleatório de 1s até 10s a fim de simular uma API com problemas de performance.
-Portal: O Portal é uma aplicação ASPNET Core que possui 1 action, Index, que é responsável por gerar uma chave aleatória, usando as informações obtidas da TimeApi. A aplicação Portal possui uma restrição de threads disponíveis para simular um servidor com alta carga de trabalho.
+
+<b>TimeApi:</b> O TimerApi é uma API Rest em .NET Core que possui um método GET que retorna um DateTime atual. Antes de retornar o DateTime, ele usa um delay aleatório de 1s até 10s a fim de simular uma API com problemas de performance.
+
+<b>Portal:</b> O Portal é uma aplicação ASPNET Core que possui 1 action, Index, que é responsável por gerar uma chave aleatória, usando as informações obtidas da TimeApi. A aplicação Portal possui uma restrição de threads disponíveis para simular um servidor com alta carga de trabalho.
 No projeto Portal, há uma propriedade estática na classe Program, a NUMBER_OF_VIRTUAL_MACHINES, que simula a quantidade de máquinas utilizadas para atender as requisições.
 A simulação utiliza a fórmula (Número de Cores * NUMBER_OF_VIRTUAL_MACHINES) para restringir o número de threads da aplicação Portal, ou seja, 1 máquina da simulação é igual a 8 threads.
 Ex.: Se a máquina possui 8 cores e NUMBER_OF_VIRTUAL_MACHINES = 10, então a aplicação Portal simula a utilização de 10 máquinas e poderá utilizar até 80 threads.
-Requester: O Requester é uma aplicação console em .NET Core que faz chamadas paralelas para o Portal.
+
+<b>Requester:</b> O Requester é uma aplicação console em .NET Core que faz chamadas paralelas para o Portal.
 O seu objetivo é refatorar a aplicação, que é funcional, para utilizar o MENOR número possível em NUMBER_OF_VIRTUAL_MACHINES para atender no mínimo 50 requisições simultaneas sem receber BadRequest.
 
 ### Regras
