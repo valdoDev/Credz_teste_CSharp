@@ -46,12 +46,12 @@ namespace Requester
             if (!response.IsSuccessStatusCode)
             {
                 Console.WriteLine($"Request {requestId} ({stopwatch.Elapsed}) => Erro: StatusCode {response.StatusCode}");
-                return;
             }
-
-            var result = await response.Content.ReadAsStringAsync();
-            Console.WriteLine($"Request {requestId} ({stopwatch.Elapsed}) => Ok: {!string.IsNullOrEmpty(result)}");
-
+            else
+            {
+                var result = await response.Content.ReadAsStringAsync();
+                Console.WriteLine($"Request {requestId} ({stopwatch.Elapsed}) => Ok: {!string.IsNullOrEmpty(result)}");
+            }
         }
 
 
