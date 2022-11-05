@@ -38,20 +38,28 @@ namespace Requester
             var stopwatch = new Stopwatch();
             stopwatch.Start();
 
-            // Busca as informações de data da API TimeAPI
-            var response = await new HttpClient().GetAsync(requestURL);
+            bool isSucessRequest = false;
+            String responseString = "";
+            System.Net.HttpStatusCode statusCode = System.Net.HttpStatusCode.OK;
 
+            try
+            {
+                // Busca as informações de data da API TimeAPI
+                var response = await new HttpClient().GetAsync(requestURL);
+                isSucessRequest = !response.IsSuccessStatusCode;
+                responseString = await response.Content.ReadAsStringAsync();
+                statusCode = response.StatusCode;
+            }
+            catch (Exception ex)
+            {}
+            
             stopwatch.Stop();
 
-            if (!response.IsSuccessStatusCode)
-            {
-                Console.WriteLine($"Request {requestId} ({stopwatch.Elapsed}) => Erro: StatusCode {response.StatusCode}");
-            }
+            if (isSucessRequest)
+                Console.WriteLine($"Request {requestId} | Running time {stopwatch.Elapsed} => Erro: StatusCode {statusCode}");
             else
-            {
-                var result = await response.Content.ReadAsStringAsync();
-                Console.WriteLine($"Request {requestId} ({stopwatch.Elapsed}) => Ok: {!string.IsNullOrEmpty(result)}");
-            }
+                Console.WriteLine($"Request {requestId} | Running time {stopwatch.Elapsed}  => Ok: {!string.IsNullOrEmpty(responseString)}");
+            
         }
 
 
