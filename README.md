@@ -35,5 +35,5 @@ Ao finalizar o teste, envie o link de um repositório Git, onde todo o testes e 
 
 ### Solução
 
-Solução necessitou de ajuste nos projetos Protal e Requester.
+Solução necessitou de ajustes nos projetos Protal e Requester.
 
